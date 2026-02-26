@@ -143,3 +143,20 @@ Example:
 ❌ Using emojis only: Not semantic, less professional  
 
 ---
+
+## Callouts in GitHub Context
+
+GitHub Markdown Callouts **render differently** depending on context:
+
+| Context | Supported | Notes |
+|---------|-----------|-------|
+| README.md | ✅ | Fully styled callouts |
+| Issues / PRs | ✅ | Works inline |
+| Wiki | ✅ | Works in Markdown pages |
+| GitHub Pages | ✅ | Works if Markdown is processed |
+| Raw Markdown | ❌ | May render as normal blockquote |
+
+> [!TIP]
+> Test callouts in GitHub itself, as other viewers may not render styles properly.
+
+---
