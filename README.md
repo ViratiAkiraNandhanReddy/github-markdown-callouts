@@ -86,3 +86,32 @@ Key points:
 ```
 
 ---
+
+## Examples
+
+### Note
+
+> [!NOTE]
+> This is a note callout. Use it for additional information or clarifications.
+
+### Tip
+
+> [!TIP]
+> Run tests before pushing changes to avoid CI failures.
+
+### Important
+
+> [!IMPORTANT]
+> Ensure you have Python 3.10+ installed before running the script.
+
+### Warning
+
+> [!WARNING]
+> Deleting the main branch is irreversible. Proceed with caution.
+
+### Caution
+
+> [!CAUTION]
+> This feature is experimental and may break in future releases.
+
+---
