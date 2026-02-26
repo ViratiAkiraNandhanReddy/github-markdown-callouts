@@ -64,3 +64,25 @@ Key points:
 > You can combine callouts with headings for longer sections for better structure.
 
 ---
+
+## Syntax & Rules
+
+1. Start **every callout** with `>`  
+2. Keyword **must be first line**  
+3. Keyword **must be uppercase**  
+4. Only **one callout type per blockquote**  
+5. No empty lines between the keyword and content
+
+✅ Correct:
+```
+> [!TIP]
+> Always commit with meaningful messages.
+```
+
+❌ Incorrect:
+```
+> Always commit with meaningful messages.
+> [!TIP]
+```
+
+---
