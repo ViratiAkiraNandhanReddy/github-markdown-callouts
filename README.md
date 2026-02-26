@@ -169,3 +169,28 @@ GitHub Markdown Callouts **render differently** depending on context:
 - **Semantic value**: Better for GitHub Pages and documentation search.  
 
 ---
+
+## Repo Usage Example
+
+To use callouts in your own README:
+
+```
+# My Project
+
+## Features
+
+> [!TIP]
+> This project uses GitHub Markdown Callouts for enhanced documentation.
+
+## Installation
+
+> [!IMPORTANT]
+> Ensure Node.js v20+ is installed.
+
+## Notes
+
+> [!NOTE]
+> This repo is open-source; contributions are welcome.
+```
+
+---
