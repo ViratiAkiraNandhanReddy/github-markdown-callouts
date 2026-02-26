@@ -115,3 +115,22 @@ Key points:
 > This feature is experimental and may break in future releases.
 
 ---
+
+## Best Practices
+
+- **One idea per callout:** Avoid stuffing multiple messages in a single block.  
+- **Use sparingly:** Too many callouts reduce impact.  
+- **Use correct type:** Don't use WARNING for trivial info.  
+- **Combine with headings:** For long sections, use `##` headings above callouts.  
+- **Keep text concise:** Short, actionable sentences work best.  
+
+Example:
+
+```
+## Installation
+
+> [!WARNING]
+> Python 3.10 or higher is required.
+```
+
+---
