@@ -49,3 +49,18 @@ Key points:
 - Keyword must appear on the **first line**  
 
 ---
+
+## Supported Callout Types
+
+| Callout Type | Syntax Keyword | Typical Use Case |
+|--------------|----------------|----------------|
+| Note         | `[!NOTE]`      | Additional info, clarifications |
+| Tip          | `[!TIP]`       | Recommendations, shortcuts |
+| Important    | `[!IMPORTANT]` | Critical information for workflow |
+| Warning      | `[!WARNING]`   | Potentially harmful actions |
+| Caution      | `[!CAUTION]`   | Experimental or risky features |
+
+> [!TIP]
+> You can combine callouts with headings for longer sections for better structure.
+
+---
