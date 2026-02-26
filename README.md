@@ -1,4 +1,6 @@
-# GitHub Markdown Callouts
+![Banner Image](https://github.com/ViratiAkiraNandhanReddy/github-markdown-callouts/blob/main/banner-github-markdown-callouts.png)
+
+<h1 align="center">GitHub Markdown Callouts</h1>
 
 > [!TIP]
 > This repository is your ultimate reference for GitHub Markdown Callouts. It includes examples, best practices, anti-patterns, and practical tips for making your README, Issues, Pull Requests, and Docs look professional.
