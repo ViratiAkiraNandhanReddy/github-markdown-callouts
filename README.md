@@ -134,3 +134,12 @@ Example:
 ```
 
 ---
+
+## Anti-Patterns / Common Mistakes
+
+❌ Overusing callouts: Too many distract the reader  
+❌ Misplaced keywords: Not on the first line  
+❌ Multiple callouts in a single block: Confusing  
+❌ Using emojis only: Not semantic, less professional  
+
+---
