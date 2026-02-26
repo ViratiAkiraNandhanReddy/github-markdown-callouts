@@ -33,3 +33,19 @@ GitHub Markdown Callouts are **visual blocks** that highlight important informat
 This guide covers **all aspects**: from syntax to examples, best practices, anti-patterns, and practical recommendations.
 
 ---
+
+## What Are GitHub Markdown Callouts?
+
+Callouts are **special blockquotes with a keyword** like `NOTE`, `TIP`, or `WARNING` at the start. GitHub renders them in a visually distinct style, improving the readability of your documentation.
+
+```
+> [!NOTE]
+> This is a simple callout block.
+```
+
+Key points:  
+- Must start with `>` for blockquote  
+- Keyword must be **uppercase**  
+- Keyword must appear on the **first line**  
+
+---
