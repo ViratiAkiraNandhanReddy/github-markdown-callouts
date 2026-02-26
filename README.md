@@ -160,3 +160,12 @@ GitHub Markdown Callouts **render differently** depending on context:
 > Test callouts in GitHub itself, as other viewers may not render styles properly.
 
 ---
+
+## SEO & Readability Benefits
+
+- **Improves scanability**: Readers can quickly find notes, tips, or warnings.  
+- **Increases engagement**: Important info is visually separated.  
+- **Professional look**: Native GitHub callouts make docs cleaner.  
+- **Semantic value**: Better for GitHub Pages and documentation search.  
+
+---
