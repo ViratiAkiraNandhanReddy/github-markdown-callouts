@@ -25,3 +25,11 @@
 11. [Conclusion](#conclusion)  
 
 ---
+
+## Introduction
+
+GitHub Markdown Callouts are **visual blocks** that highlight important information in documentation. They help make READMEs, issues, PRs, and wikis **more readable, scannable, and professional**.  
+
+This guide covers **all aspects**: from syntax to examples, best practices, anti-patterns, and practical recommendations.
+
+---
