@@ -1,4 +1,4 @@
-![Banner Image](https://github.com/ViratiAkiraNandhanReddy/github-markdown-callouts/blob/main/banner-github-markdown-callouts.png)
+<img src="https://github.com/ViratiAkiraNandhanReddy/github-markdown-callouts/blob/main/banner-github-markdown-callouts.png" alt="BANNER IMAGE"/>
 
 <h1 align="center">GitHub Markdown Callouts</h1>
 
