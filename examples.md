@@ -57,3 +57,59 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > 
 > For a deeper dive into the math, see our [Algorithmic Breakdown](#).
 ```
+
+---
+
+## 💡 2. Tip Examples (`[!TIP]`)
+
+### Basic Tip
+**Rendered:**
+> [!TIP]
+> Press `Cmd + K` (Mac) or `Ctrl + K` (Windows) to open the command palette.
+
+**Code:**
+```markdown
+> [!TIP]
+> Press `Cmd + K` (Mac) or `Ctrl + K` (Windows) to open the command palette.
+```
+
+### Very Complex: Tip with Interactive Task Lists and Code Blocks
+*Demonstrating how to embed actionable checklists and multi-line scripts.*
+
+**Rendered:**
+> [!TIP]
+> **Optimizing your Local Environment**
+> 
+> To get the best performance out of the development server, complete the following checklist:
+> - [x] Install the latest Docker Desktop
+> - [ ] Enable VirtioFS in Docker settings
+> - [ ] Run the optimization script below:
+> 
+> ```bash
+> #!/bin/bash
+> echo "Clearing local cache..."
+> rm -rf node_modules/.cache
+> npm run build:dll
+> echo "Done! ⚡"
+> ```
+
+**Code:**
+```markdown
+> [!TIP]
+> **Optimizing your Local Environment**
+> 
+> To get the best performance out of the development server, complete the following checklist:
+> - [x] Install the latest Docker Desktop
+> - [ ] Enable VirtioFS in Docker settings
+> - [ ] Run the optimization script below:
+> 
+> ```bash
+> #!/bin/bash
+> echo "Clearing local cache..."
+> rm -rf node_modules/.cache
+> npm run build:dll
+> echo "Done! ⚡"
+> ```
+```
+
+---
