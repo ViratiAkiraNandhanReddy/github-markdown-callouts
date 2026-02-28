@@ -245,3 +245,59 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 ```
 
 ---
+
+## 🛑 5. Caution Examples (`[!CAUTION]`)
+
+### Basic Caution
+**Rendered:**
+> [!CAUTION]
+> Never commit your `.env` file. This will expose your credentials to the public.
+
+**Code:**
+```markdown
+> [!CAUTION]
+> Never commit your `.env` file. This will expose your credentials to the public.
+```
+
+### Very Complex: Caution with Destructive Commands, Nested Lists, and Bold Emphasis
+*Demonstrating how to properly warn users about catastrophic system actions using structured hierarchy.*
+
+**Rendered:**
+> [!CAUTION]
+> **IRREVERSIBLE DATA DESTRUCTION**
+> 
+> Executing the script below will completely format the mounted volume and destroy all production records. There is **no undo** for this action.
+> 
+> If you proceed, the following will occur:
+> 1. All active sessions will be abruptly terminated.
+> 2. The `pg_data` directory will be unmounted and wiped.
+> 3. S3 bucket backups older than 30 days will be purged.
+> 
+> ```sql
+> -- ONLY RUN THIS IF YOU INTEND TO WIPE THE CLUSTER
+> DROP DATABASE production_db WITH (FORCE);
+> DROP ROLE admin_service_account;
+> ```
+> 
+> *Ensure you have written authorization from the CTO before executing these commands.*
+
+**Code:**
+```markdown
+> [!CAUTION]
+> **IRREVERSIBLE DATA DESTRUCTION**
+> 
+> Executing the script below will completely format the mounted volume and destroy all production records. There is **no undo** for this action.
+> 
+> If you proceed, the following will occur:
+> 1. All active sessions will be abruptly terminated.
+> 2. The `pg_data` directory will be unmounted and wiped.
+> 3. S3 bucket backups older than 30 days will be purged.
+> 
+> ```
+> -- ONLY RUN THIS IF YOU INTEND TO WIPE THE CLUSTER
+> DROP DATABASE production_db WITH (FORCE);
+> DROP ROLE admin_service_account;
+> ```
+> 
+> *Ensure you have written authorization from the CTO before executing these commands.*
+```
