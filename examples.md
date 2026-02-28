@@ -173,3 +173,75 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 ```
 
 ---
+
+## ⚠️ 4. Warning Examples (`[!WARNING]`)
+
+### Basic Warning
+**Rendered:**
+> [!WARNING]
+> The `getUserData()` method is deprecated and will be removed in version 3.0.
+
+**Code:**
+```markdown
+> [!WARNING]
+> The `getUserData()` method is deprecated and will be removed in version 3.0.
+```
+
+### Very Complex: Warning with Diff Blocks and Context
+*Demonstrating how to use markdown diffs inside a warning to show users exactly what code they need to remove/add.*
+
+**Rendered:**
+> [!WARNING]
+> **Breaking Change in v4 Router API**
+> 
+> The `<Switch>` component has been entirely removed from `react-router-dom` v6. If you attempt to use it, your application will crash on load. 
+> 
+> You **must** migrate to `<Routes>` immediately:
+> 
+> ```diff
+>  import { BrowserRouter as Router, Route } from "react-router-dom";
+> -import { Switch } from "react-router-dom";
+> +import { Routes } from "react-router-dom";
+> 
+>  function App() {
+>    return (
+>      <Router>
+> -      <Switch>
+> +      <Routes>
+>          <Route path="/" element={<Home />} />
+> -      </Switch>
+> +      </Routes>
+>      </Router>
+>    );
+>  }
+> ```
+
+**Code:**
+```markdown
+> [!WARNING]
+> **Breaking Change in v4 Router API**
+> 
+> The `<Switch>` component has been entirely removed from `react-router-dom` v6. If you attempt to use it, your application will crash on load. 
+> 
+> You **must** migrate to `<Routes>` immediately:
+> 
+> ```
+>  import { BrowserRouter as Router, Route } from "react-router-dom";
+> -import { Switch } from "react-router-dom";
+> +import { Routes } from "react-router-dom";
+> 
+>  function App() {
+>    return (
+>      <Router>
+> -      <Switch>
+> +      <Routes>
+>          <Route path="/" element={<Home />} />
+> -      </Switch>
+> +      </Routes>
+>      </Router>
+>    );
+>  }
+> ```
+```
+
+---
