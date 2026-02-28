@@ -103,12 +103,72 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > - [ ] Enable VirtioFS in Docker settings
 > - [ ] Run the optimization script below:
 > 
-> ```bash
+> ```
 > #!/bin/bash
 > echo "Clearing local cache..."
 > rm -rf node_modules/.cache
 > npm run build:dll
 > echo "Done! ⚡"
+> ```
+```
+
+---
+
+## 💬 3. Important Examples (`[!IMPORTANT]`)
+
+### Basic Important
+**Rendered:**
+> [!IMPORTANT]
+> Node.js version 18.0.0 or higher is strictly required to run this application.
+
+**Code:**
+```markdown
+> [!IMPORTANT]
+> Node.js version 18.0.0 or higher is strictly required to run this application.
+```
+
+### Very Complex: Important with Embedded Diagrams and JSON
+*Demonstrating how to embed reference images and configuration structures inside a critical alert.*
+
+**Rendered:**
+> [!IMPORTANT]
+> **OAuth2 Authentication Flow Changes**
+> 
+> The authentication architecture has been updated. All client applications must now intercept the token exchange as shown in the diagram below:
+> 
+> 
+> 
+> You must update your `config.json` to include the new `pkce` parameters:
+> 
+> ```json
+> {
+>   "auth": {
+>     "clientId": "YOUR_CLIENT_ID",
+>     "flow": "authorization_code",
+>     "enablePkce": true
+>   }
+> }
+> ```
+
+**Code:**
+```markdown
+> [!IMPORTANT]
+> **OAuth2 Authentication Flow Changes**
+> 
+> The authentication architecture has been updated. All client applications must now intercept the token exchange as shown in the diagram below:
+> 
+> 
+> 
+> You must update your `config.json` to include the new `pkce` parameters:
+> 
+> ```
+> {
+>   "auth": {
+>     "clientId": "YOUR_CLIENT_ID",
+>     "flow": "authorization_code",
+>     "enablePkce": true
+>   }
+> }
 > ```
 ```
 
