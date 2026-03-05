@@ -223,7 +223,8 @@ To ensure your callouts render correctly across GitHub's ecosystem, you must adh
 **❌ Invalid Syntax:**
 
 ```markdown
-> [!NOTE] 
+> [!NOTE]
+
 > This will fail because the first line is empty.
 ```
 
