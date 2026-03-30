@@ -82,7 +82,7 @@ GitHub currently supports five distinct alert levels. Each serves a specific sem
 | :--- | :--- | :--- | :--- | :--- |
 | **Note** | `[!NOTE]` | Blue | ℹ️ (Info) | General context, nice-to-know details. |
 | **Tip** | `[!TIP]` | Green | 💡 (Lightbulb) | Best practices, workflow optimizations. |
-| **Important**| `[!IMPORTANT]`| Purple | 💬 (Message) | Crucial context necessary for success. |
+| **Important** | `[!IMPORTANT]` | Purple | 💬 (Message) | Crucial context necessary for success. |
 | **Warning** | `[!WARNING]` | Yellow | ⚠️ (Triangle) | Potential issues, deprecations, non-fatal risks. |
 | **Caution** | `[!CAUTION]` | Red | 🛑 (Octagon) | Severe risks, data loss, security vulnerabilities. |
 
@@ -210,7 +210,7 @@ To ensure your callouts render correctly across GitHub's ecosystem, you must adh
 1.  **Prefix:** Every line of the callout must start with a standard blockquote character (`>`).
 2.  **Keyword Placement:** The keyword trigger (e.g., `[!TIP]`) must be on the *very first line* of the blockquote.
 3.  **Case Sensitivity:** The keyword must be entirely uppercase. `[!tip]` will fail to render as an alert.
-4.  **No Leading Spaces:** The text should immediately follow the `>` (a single space is allowed and standard).
+4.  **Proper Spacing:** A single space should follow the blockquote character (`>`) for optimal parsing and readability across all GFM-compliant renderers.
 5.  **Spacing:** Do not leave an empty line between the keyword line and the body text.
 
 **✅ Valid Syntax:**
@@ -377,7 +377,7 @@ To run this project locally, follow these steps.
 
 1. Clone the repository.
 2. Run `npm install`.
-3. Copy `.env.example` to `.env`.
+3. Copy `.env.example" to ".env".
 
 > [!TIP]
 > Use `nvm use` to automatically switch to the correct Node.js version specified in the `.nvmrc` file.
