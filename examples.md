@@ -36,7 +36,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > | 50 MB        | 2100ms        | 580ms             | 🚀 **-72%** |
 > | 100 MB       | 4500ms        | 1100ms            | 🚀 **-75%** |
 > 
-> For a deeper dive into the math, see our [Algorithmic Breakdown](#).
+> For a deeper dive into the math, see our [Algorithmic Breakdown (Reference)](#).
 
 **Code:**
 ```markdown
@@ -55,7 +55,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > | 50 MB           | 2100ms        | 580ms             | 🚀 **-72%** |
 > | 100 MB          | 4500ms        | 1100ms            | 🚀 **-75%** |
 > 
-> For a deeper dive into the math, see our [Algorithmic Breakdown](#).
+> For a deeper dive into the math, see our [Algorithmic Breakdown (Reference)](#).
 ```
 
 ---
@@ -103,7 +103,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > - [ ] Enable VirtioFS in Docker settings
 > - [ ] Run the optimization script below:
 > 
-> ```
+> ```bash
 > #!/bin/bash
 > echo "Clearing local cache..."
 > rm -rf node_modules/.cache
@@ -136,7 +136,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > 
 > The authentication architecture has been updated. All client applications must now intercept the token exchange as shown in the diagram below:
 > 
-> 
+> ![OAuth2 Authentication Flow Diagram Placeholder](https://github.com/ViratiAkiraNandhanReddy/github-markdown-callouts/raw/main/banner-github-markdown-callouts.png)
 > 
 > You must update your `config.json` to include the new `pkce` parameters:
 > 
@@ -157,11 +157,11 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > 
 > The authentication architecture has been updated. All client applications must now intercept the token exchange as shown in the diagram below:
 > 
-> 
+> ![OAuth2 Authentication Flow Diagram Placeholder](https://github.com/ViratiAkiraNandhanReddy/github-markdown-callouts/raw/main/banner-github-markdown-callouts.png)
 > 
 > You must update your `config.json` to include the new `pkce` parameters:
 > 
-> ```
+> ```json
 > {
 >   "auth": {
 >     "clientId": "YOUR_CLIENT_ID",
@@ -225,7 +225,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > 
 > You **must** migrate to `<Routes>` immediately:
 > 
-> ```
+> ```diff
 >  import { BrowserRouter as Router, Route } from "react-router-dom";
 > -import { Switch } from "react-router-dom";
 > +import { Routes } from "react-router-dom";
@@ -293,7 +293,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > 2. The `pg_data` directory will be unmounted and wiped.
 > 3. S3 bucket backups older than 30 days will be purged.
 > 
-> ```
+> ```sql
 > -- ONLY RUN THIS IF YOU INTEND TO WIPE THE CLUSTER
 > DROP DATABASE production_db WITH (FORCE);
 > DROP ROLE admin_service_account;
