@@ -73,7 +73,7 @@ We encourage pull requests for improvements, fixes, and examples.
 2. **Clone your fork** locally:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/github-markdown-callouts.git
+git clone https://github.com/ViratiAkiraNandhanReddy/github-markdown-callouts.git
 ```
 
 3. **Create a new branch** for your changes:
