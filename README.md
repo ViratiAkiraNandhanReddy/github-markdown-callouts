@@ -377,7 +377,7 @@ To run this project locally, follow these steps.
 
 1. Clone the repository.
 2. Run `npm install`.
-3. Copy `.env.example" to ".env".
+3. Copy `.env.example` to `.env`.
 
 > [!TIP]
 > Use `nvm use` to automatically switch to the correct Node.js version specified in the `.nvmrc` file.
