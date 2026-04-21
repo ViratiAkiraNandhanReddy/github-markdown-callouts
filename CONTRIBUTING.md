@@ -72,25 +72,25 @@ We encourage pull requests for improvements, fixes, and examples.
 
 2. **Clone your fork** locally:
 
-```
+```bash
 git clone https://github.com/ViratiAkiraNandhanReddy/github-markdown-callouts.git
 ```
 
 3. **Create a new branch** for your changes:
 
-```
+```bash
 git checkout -b feature/my-new-callout
 ```
 
 4. Make your changes and commit:
 
-```
+```bash
 git commit -m "Add example for TIP callout with emoji"
 ```
 
 5. Push your branch:
 
-```
+```bash
 git push origin feature/my-new-callout
 ```
 

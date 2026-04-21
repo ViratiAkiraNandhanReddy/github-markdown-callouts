@@ -36,7 +36,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > | 50 MB        | 2100ms        | 580ms             | 🚀 **-72%** |
 > | 100 MB       | 4500ms        | 1100ms            | 🚀 **-75%** |
 > 
-> For a deeper dive into the math, see our [Algorithmic Breakdown](#).
+> For a deeper dive into the math, see our [Algorithmic Breakdown (Reference)](#).
 
 **Code:**
 ```markdown
@@ -55,7 +55,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > | 50 MB           | 2100ms        | 580ms             | 🚀 **-72%** |
 > | 100 MB          | 4500ms        | 1100ms            | 🚀 **-75%** |
 > 
-> For a deeper dive into the math, see our [Algorithmic Breakdown](#).
+> For a deeper dive into the math, see our [Algorithmic Breakdown (Reference)](#).
 ```
 
 ---
@@ -136,7 +136,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > 
 > The authentication architecture has been updated. All client applications must now intercept the token exchange as shown in the diagram below:
 > 
-> 
+> ![OAuth2 Authentication Flow Diagram Placeholder](https://github.com/ViratiAkiraNandhanReddy/github-markdown-callouts/raw/main/banner-github-markdown-callouts.png)
 > 
 > You must update your `config.json` to include the new `pkce` parameters:
 > 
@@ -157,7 +157,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > 
 > The authentication architecture has been updated. All client applications must now intercept the token exchange as shown in the diagram below:
 > 
-> 
+> ![OAuth2 Authentication Flow Diagram Placeholder](https://github.com/ViratiAkiraNandhanReddy/github-markdown-callouts/raw/main/banner-github-markdown-callouts.png)
 > 
 > You must update your `config.json` to include the new `pkce` parameters:
 > 
