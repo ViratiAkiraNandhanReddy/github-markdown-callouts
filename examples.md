@@ -103,7 +103,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > - [ ] Enable VirtioFS in Docker settings
 > - [ ] Run the optimization script below:
 > 
-> ```bash
+> ```
 > #!/bin/bash
 > echo "Clearing local cache..."
 > rm -rf node_modules/.cache
@@ -161,7 +161,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > 
 > You must update your `config.json` to include the new `pkce` parameters:
 > 
-> ```json
+> ```
 > {
 >   "auth": {
 >     "clientId": "YOUR_CLIENT_ID",
@@ -225,7 +225,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > 
 > You **must** migrate to `<Routes>` immediately:
 > 
-> ```diff
+> ```
 >  import { BrowserRouter as Router, Route } from "react-router-dom";
 > -import { Switch } from "react-router-dom";
 > +import { Routes } from "react-router-dom";
@@ -293,7 +293,7 @@ This document serves as a copy-paste reference guide for GitHub Markdown Callout
 > 2. The `pg_data` directory will be unmounted and wiped.
 > 3. S3 bucket backups older than 30 days will be purged.
 > 
-> ```sql
+> ```
 > -- ONLY RUN THIS IF YOU INTEND TO WIPE THE CLUSTER
 > DROP DATABASE production_db WITH (FORCE);
 > DROP ROLE admin_service_account;
